@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "My To-do-Reminders";
+    Layout = "_Layout";
+}
+
+<h1>Here are the list of things that need to be done</h1>
+
+<ul>
+    <li><a asp-controller="Main" asp-action="Details" asp-route-task="Task 1">Task 1</a></li>
+    <li><a asp-controller="Main" asp-action="Details" asp-route-task="Task 2">Task 2</a></li>
+    <li><a asp-controller="Main" asp-action="Details" asp-route-task="Task 3">Task 3</a></li>
+</ul>
